@@ -130,5 +130,5 @@ I'm an **engineering student** who combines:
 ---
 
 <div align="center">
-  <p><em>🧠 Addicted to knowledge consuming</em></p>
+  <p><em>🧠 Addicted to knowledge consuming : I see, I learn, maybe I fail but I'll do it.</em></p>
 </div>
