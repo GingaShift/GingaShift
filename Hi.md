@@ -63,9 +63,9 @@ Specializing in **Computer Science and Physics**, I currently work on exciting p
 
 ## Mes Projets
 
-### **Chatbot IA en Python**
-Un projet phare dans lequel je développe un **chatbot intelligent** en Python, intégrant diverses librairies de mathématiques et de statistiques pour optimiser les réponses et interactions.  
-[👉 En savoir plus sur le projet](https://github.com/GingaShift/projetchatbotpythonL1) 
+### **AI Chatbot in Python**
+A flagship project where I'm developing a smart AI chatbot in Python, leveraging various mathematical and statistical libraries to enhance responses and interactions. 
+[👉 Want to know more ?](https://github.com/GingaShift/projetchatbotpythonL1) 
 
 ---
 
