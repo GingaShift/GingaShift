@@ -36,7 +36,7 @@
 
 | Section                                 | Description                                                    |
 |-----------------------------------------|----------------------------------------------------------------|
-| [👋 About Me](#👋-About-Me)          | Cosmic coder, physics enthusiast, always curious 🚀           |
+| [👋 About Me](#à-propos-de-moi)          | Cosmic coder, physics enthusiast, always curious 🚀           |
 | [💼 Professional Profile](#mon-profil-professionnel) | Blending tech & physics to engineer cool stuff ⚙️             |
 | [🛰 Projects](#mes-projets)              | Turning creative ideas into reality, one line at a time 🌠     |
 | [🛠 Skills & Tools](#mes-compétences--atouts) | The tech stack powering my cosmic explorations 🔧             |
@@ -47,7 +47,7 @@
 
 ---
 
-## 👋 About Me
+## À propos de moi
 
 **GingaShift**  
 *Computer Science - Physics Student*
