@@ -23,12 +23,9 @@
 </div>
   <!-- Texte à droite -->
   <div style="max-width: 400px;">
-    <h2>Bienvenue dans l'univers de GingaShift !</h2>
+    <h2>You've Touched Down on GingaShift Planet 🪐 !</h2>
     <p>
-      Je suis une étudiante ingénieure passionnée par l'univers du code et de l'astrophysique.
-      Je combine ma soif de connaissances en sciences physiques et mon amour pour
-      l'informatique afin de créer des projets innovants qui repoussent les limites de la
-      technologie.
+      I’m a passionate engineering student exploring the synergy of computer science, physics, and engineering to tackle complex challenges. My curiosity drives me to push the boundaries of technology with innovative projects 🚀.
     </p>
   </div>
 </div>
