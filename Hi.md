@@ -31,17 +31,18 @@
 </div>
 
 ---
+
 ## 🌌 Table of Contents
 
-| Section                                     | Description                                |
-|--------------------------------------------|--------------------------------------------|
-| [👋 About Me](#à-propos-de-moi)            | Aperçu rapide de qui je suis               |
-| [💼 Professional Profile](#mon-profil-professionnel) | Mon parcours et mes projets actuels        |
-| [🚀 Projects](#mes-projets)                | Mes réalisations et idées en cours         |
-| [🛠 Skills & Tools](#mes-compétences--atouts) | Technologies & frameworks que j’utilise     |
-| [🎵 Interests](#mes-centres-dintérêt)      | Ce qui me passionne en dehors du code       |
-| [🌐 Social & Contacts](#réseaux-sociaux--contacts) | Où me trouver en ligne                     |
-| [📊 GitHub Stats](#statistiques-github)    | Quelques stats sympas sur mes repos        |
+| Section                                 | Description                                                    |
+|-----------------------------------------|----------------------------------------------------------------|
+| [👋 About Me](#à-propos-de-moi)          | Cosmic coder, physics enthusiast, always curious 🚀           |
+| [💼 Professional Profile](#mon-profil-professionnel) | Blending tech & physics to engineer cool stuff ⚙️             |
+| [🛰 Projects](#mes-projets)              | Turning creative ideas into reality, one line at a time 🌠     |
+| [🛠 Skills & Tools](#mes-compétences--atouts) | The tech stack powering my cosmic explorations 🔧             |
+| [🎵 Interests](#mes-centres-dintérêt)   | What fuels me beyond code and equations 🎧✨                    |
+| [🌐 Social & Contacts](#réseaux-sociaux--contacts) | Let's connect and explore possibilities together 🌎           |
+| [📊 GitHub Stats](#statistiques-github) | Cool data showing my journey in the coding universe 📈        |
 
 
 ---
