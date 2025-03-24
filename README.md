@@ -22,6 +22,14 @@
     width="270"
     style="border-radius: 8px; flex-shrink: 0;"
   />
+
+  <!-- Troisième GIF (à personnaliser) -->
+  <img
+    src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnIzMDNkY2pjZzg3Zmc5Y3hreXVld2czbTRhbW1wZDNjczl2NDlvZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pZGDZwmxOtEEo/giphy.gif"
+    alt="3rd Interstellar-style Animation"
+    width="270"
+    style="border-radius: 8px; flex-shrink: 0;"
+  />
 </div>
   <!-- Texte à droite -->
   <div style="max-width: 400px;">
