@@ -52,21 +52,20 @@
 **GingaShift**  
 *Computer Science - Physics Student*
 
-Salut ! Je suis **GingaShift**, une étudiante ingénieure passionnée par l'univers du code et de l'astrophysique. Je combine ma soif de connaissances en sciences physiques et mon amour pour l'informatique afin de créer des projets innovants qui repoussent les limites de la technologie.
+Hi! I’m **Eden**, a passionate engineering student captivated by the universe of coding and astrophysics. I blend my endless curiosity in physical sciences with my passion for technology to create innovative projects that push technological limits.
 
 ---
 
 ## Mon Profil Professionnel
 
-Je suis spécialisée en **computer science** et en **physique**. Actuellement, je travaille sur des projets passionnants alliant intelligence artificielle et solutions innovantes, tout en poursuivant mes études pour approfondir mes connaissances.
-
+Specializing in **Computer Science and Physics**, I currently work on exciting projects combining artificial intelligence with innovative solutions, all while advancing my studies to deepen my expertise.
 ---
 
 ## Mes Projets
 
 ### **Chatbot IA en Python**
 Un projet phare dans lequel je développe un **chatbot intelligent** en Python, intégrant diverses librairies de mathématiques et de statistiques pour optimiser les réponses et interactions.  
-[👉 En savoir plus sur le projet](#) *(Lien à remplacer par celui de ton projet)*
+[👉 En savoir plus sur le projet](#) 
 
 ---
 
@@ -94,11 +93,10 @@ Voici quelques-unes de mes compétences techniques et outils favoris :
 
 ## Mes Centres d'Intérêt
 
-Je suis **une étudiante ingénieure passionnée** qui allie :
-- **Informatique & Sciences** : Création de projets innovants pour résoudre des problèmes concrets.
-- **Musique** : La créativité musicale m'inspire dans mes démarches techniques.
-- **Innovation** : Toujours à l'affût de nouvelles idées et solutions pour repousser les frontières du possible.
-
+I'm an **engineering student** who combines:
+- **Tech & Science**: Developing innovative solutions for real-world problems.
+- **Music**: Musical creativity fuels my technical approach.
+- **Innovation**: Always hunting for fresh ideas and frontier-expanding solutions.
 ---
 
 ## Réseaux Sociaux & Contacts
