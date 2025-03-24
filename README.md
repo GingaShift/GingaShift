@@ -2,6 +2,8 @@
 <div align="center">
   <!-- Bannière créative avec Capsule Render -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20it's%20GingaShift!&fontSize=50&fontAlignY=40&animation=twinkling" alt="Bannière GingaShift" />
+
+  <p><em>🧠 Addicted to knowledge consuming</em></p>
 </div>
 
 <!-- SECTION : 2 Gifs côte à côte -->
