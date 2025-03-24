@@ -4,24 +4,23 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Bienvenue%20dans%20l'univers%20de%20GingaShift!&fontSize=50&fontAlignY=40&animation=twinkling" alt="Bannière GingaShift" />
 </div>
 
-<!-- SECTION : 2 GIFs côte à côte + Texte -->
-<div style="display: flex; align-items: center; margin-top: 20px; flex-wrap: nowrap; justify-content: center;">
-  <!-- Premier GIF : trou noir -->
-  <img 
-    src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHQ2dmdnOGNsdTVmZGRhdzNubWJwOGlzeWVhbDNidjE3cG5kMGdicSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SVCSsoKU5v6ZJLk07n/giphy.gif" 
-    alt="Interstellar Animation" 
-    width="250" 
+<!-- SECTION : 2 Gifs côte à côte -->
+<div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
+  <!-- Premier GIF -->
+  <img
+    src="https://media.giphy.com/media/l3vRkhfNFU8P2lnI8/giphy.gif"
+    alt="Interstellar Animation"
+    width="270"
     style="margin-right: 20px; border-radius: 8px; flex-shrink: 0;"
   />
-
-  <!-- Deuxième GIF : TARS (ou autre) -->
-  <img 
-    src="https://media.giphy.com/media/XXYkaKVk1Luda/giphy.gif?cid=790b7611o7cr3wx6hs11tebl3ay6gyp12kr64pn8lfz7alco&ep=v1_gifs_search&rid=giphy.gif&ct=g" 
-    alt="Interstellar Animation 2" 
-    width="250" 
-    style="margin-right: 20px; border-radius: 8px; flex-shrink: 0;"
+  <!-- Deuxième GIF (TARS) -->
+  <img
+    src="https://media.giphy.com/media/NU0i7S8CsB7ws/giphy.gif"
+    alt="Interstellar Animation 2"
+    width="270"
+    style="border-radius: 8px; flex-shrink: 0;"
   />
-
+</div>
   <!-- Texte à droite -->
   <div style="max-width: 400px;">
     <h2>Bienvenue dans l'univers de GingaShift !</h2>
