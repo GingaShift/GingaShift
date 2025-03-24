@@ -24,11 +24,11 @@
   />
 
   <!-- Troisième GIF (à personnaliser) -->
+   <!-- GIF 3 : Coop shocked (exemple) -->
   <img
     src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnIzMDNkY2pjZzg3Zmc5Y3hreXVld2czbTRhbW1wZDNjczl2NDlvZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pZGDZwmxOtEEo/giphy.gif"
-    alt="3rd Interstellar-style Animation"
-    width="270"
-    style="border-radius: 8px; flex-shrink: 0;"
+    alt="Cooper Face"
+    style="height: 200px; border-radius: 8px;"
   />
 </div>
   <!-- Texte à droite -->
