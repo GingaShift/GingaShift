@@ -1,9 +1,9 @@
 <!-- BANNIÈRE DYNAMIQUE & ANIMÉE -->
 <div align="center">
   <!-- Bannière créative avec Capsule Render -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20it's%20GingaShift!&fontSize=50&fontAlignY=40&animation=twinkling" alt="Bannière GingaShift" />
+ <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20it's%20GingaShift!%0A🧠%20Addicted%20to%20knowledge%20consuming&fontSize=40&fontAlignY=30&animation=twinkling" alt="GingaShift Banner" />
 
-  <p><em>🧠 Addicted to knowledge consuming</em></p>
+
 </div>
 
 <!-- SECTION : 2 Gifs côte à côte -->
