@@ -31,15 +31,18 @@
 </div>
 
 ---
+## 🌌 Table of Contents
 
-**Table des matières**
-- [À propos de moi](#à-propos-de-moi)
-- [Mon Profil Professionnel](#mon-profil-professionnel)
-- [Mes Projets](#mes-projets)
-- [Mes Compétences & Atouts](#mes-compétences--atouts)
-- [Mes Centres d'Intérêt](#mes-centres-dintérêt)
-- [Réseaux Sociaux & Contacts](#réseaux-sociaux--contacts)
-- [Statistiques GitHub](#statistiques-github)
+| Section                                     | Description                                |
+|--------------------------------------------|--------------------------------------------|
+| [👋 About Me](#à-propos-de-moi)            | Aperçu rapide de qui je suis               |
+| [💼 Professional Profile](#mon-profil-professionnel) | Mon parcours et mes projets actuels        |
+| [🚀 Projects](#mes-projets)                | Mes réalisations et idées en cours         |
+| [🛠 Skills & Tools](#mes-compétences--atouts) | Technologies & frameworks que j’utilise     |
+| [🎵 Interests](#mes-centres-dintérêt)      | Ce qui me passionne en dehors du code       |
+| [🌐 Social & Contacts](#réseaux-sociaux--contacts) | Où me trouver en ligne                     |
+| [📊 GitHub Stats](#statistiques-github)    | Quelques stats sympas sur mes repos        |
+
 
 ---
 
