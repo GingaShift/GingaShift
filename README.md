@@ -14,6 +14,13 @@
     style="margin-right: 20px; border-radius: 8px;"
   />
 
+  <img 
+    src="https://media.giphy.com/media/XXYkaKVk1Luda/giphy.gif?cid=790b7611o7cr3wx6hs11tebl3ay6gyp12kr64pn8lfz7alco&ep=v1_gifs_search&rid=giphy.gif&ct=g" 
+    alt="Interstellar Animation 2" 
+    width="300" 
+    style="border-radius: 8px;"
+  />
+
   <!-- Texte à droite -->
   <div>
     <h2>Bienvenue dans l'univers de GingaShift !</h2>
