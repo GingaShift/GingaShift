@@ -1,7 +1,7 @@
 <!-- BANNIÈRE DYNAMIQUE & ANIMÉE -->
 <div align="center">
   <!-- Bannière créative avec Capsule Render -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20it's%20GingaShift!&fontSize=50&fontAlignY=40&animation=rainbow" alt="Bannière GingaShift" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20it's%20GingaShift!&fontSize=50&fontAlignY=40&animation=wave" alt="Bannière GingaShift" />
 </div>
 
 <!-- SECTION : 2 Gifs côte à côte -->
