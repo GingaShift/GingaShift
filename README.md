@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- Bannière "Capsule Render" (facultative) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Bienvenue%20sur%20mon%20profil!&fontSize=40&fontAlignY=35&animation=twinkling" />
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnc0b2M5dDNvY3Nld2ZtNmRyNzJ5c2MzeGJpdWt1OW1oZGw0aW85aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SVCSsoKU5v6ZJLk07n/giphy.gif" />
 
   <!-- GIF Interstellar de bienvenue -->
   <br/>
