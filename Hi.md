@@ -8,14 +8,14 @@
 <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px;">
   <!-- Premier GIF -->
   <img
-    src="https://media.giphy.com/media/l3vRkhfNFU8P2lnI8/giphy.gif"
+    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzdjcjN3eDZoczExdGVibDNheTZneXAxMmtyNjRwbjhsZno3YWxjbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SVCSsoKU5v6ZJLk07n/giphy.gif"
     alt="Interstellar Animation"
     width="270"
     style="margin-right: 20px; border-radius: 8px; flex-shrink: 0;"
   />
   <!-- Deuxième GIF (TARS) -->
   <img
-    src="https://media.giphy.com/media/NU0i7S8CsB7ws/giphy.gif"
+    src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5zM2JmNHJrNGx6em85MmhoOTJ2MjZ0em9vMXdudmN6OTN6NnhjcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XXYkaKVk1Luda/giphy.gif"
     alt="Interstellar Animation 2"
     width="270"
     style="border-radius: 8px; flex-shrink: 0;"
