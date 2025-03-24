@@ -6,7 +6,7 @@
 
 <!-- GIF Interstellar stratégiquement placé -->
 <div align="center">
-  <img src="https://media.giphy.com/media/xT5LMu9spCTpcf8ZCk/giphy.gif" alt="Interstellar Animation" width="600" />
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzBnZ3AyenVxMjM5Z2JnZnRrMW1jcHUzZzV5cnZlbzNzbXdyMnFmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PkKzNQjwPy7GvxZbfe/giphy.gif" alt="Interstellar Animation" width="600" />
 </div>
 
 ---
