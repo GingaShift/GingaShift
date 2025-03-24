@@ -4,25 +4,26 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Bienvenue%20dans%20l'univers%20de%20GingaShift!&fontSize=50&fontAlignY=40&animation=twinkling" alt="Bannière GingaShift" />
 </div>
 
-<!-- GIF Interstellar sur la gauche et texte sur la droite -->
-<div style="display: flex; align-items: center; margin-top: 20px;">
-  <!-- Image à gauche -->
+<!-- SECTION : 2 GIFs côte à côte + Texte -->
+<div style="display: flex; align-items: center; margin-top: 20px; flex-wrap: nowrap; justify-content: center;">
+  <!-- Premier GIF : trou noir -->
   <img 
     src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHQ2dmdnOGNsdTVmZGRhdzNubWJwOGlzeWVhbDNidjE3cG5kMGdicSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SVCSsoKU5v6ZJLk07n/giphy.gif" 
     alt="Interstellar Animation" 
-    width="300" 
-    style="margin-right: 20px; border-radius: 8px;"
+    width="250" 
+    style="margin-right: 20px; border-radius: 8px; flex-shrink: 0;"
   />
 
+  <!-- Deuxième GIF : TARS (ou autre) -->
   <img 
     src="https://media.giphy.com/media/XXYkaKVk1Luda/giphy.gif?cid=790b7611o7cr3wx6hs11tebl3ay6gyp12kr64pn8lfz7alco&ep=v1_gifs_search&rid=giphy.gif&ct=g" 
     alt="Interstellar Animation 2" 
-    width="300" 
-    style="border-radius: 8px;"
+    width="250" 
+    style="margin-right: 20px; border-radius: 8px; flex-shrink: 0;"
   />
 
   <!-- Texte à droite -->
-  <div>
+  <div style="max-width: 400px;">
     <h2>Bienvenue dans l'univers de GingaShift !</h2>
     <p>
       Je suis une étudiante ingénieure passionnée par l'univers du code et de l'astrophysique.
@@ -32,9 +33,6 @@
     </p>
   </div>
 </div>
----
-
-**Table des matières**
 
 ---
 
