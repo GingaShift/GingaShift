@@ -4,11 +4,27 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Bienvenue%20dans%20l'univers%20de%20GingaShift!&fontSize=50&fontAlignY=40&animation=twinkling" alt="Bannière GingaShift" />
 </div>
 
-<!-- GIF Interstellar stratégiquement placé -->
-<div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHQ2dmdnOGNsdTVmZGRhdzNubWJwOGlzeWVhbDNidjE3cG5kMGdicSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SVCSsoKU5v6ZJLk07n/giphy.gif" alt="Interstellar Animation" width="600" />
-</div>
+<!-- GIF Interstellar sur la gauche et texte sur la droite -->
+<div style="display: flex; align-items: center; margin-top: 20px;">
+  <!-- Image à gauche -->
+  <img 
+    src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHQ2dmdnOGNsdTVmZGRhdzNubWJwOGlzeWVhbDNidjE3cG5kMGdicSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SVCSsoKU5v6ZJLk07n/giphy.gif" 
+    alt="Interstellar Animation" 
+    width="300" 
+    style="margin-right: 20px; border-radius: 8px;"
+  />
 
+  <!-- Texte à droite -->
+  <div>
+    <h2>Bienvenue dans l'univers de GingaShift !</h2>
+    <p>
+      Je suis une étudiante ingénieure passionnée par l'univers du code et de l'astrophysique.
+      Je combine ma soif de connaissances en sciences physiques et mon amour pour
+      l'informatique afin de créer des projets innovants qui repoussent les limites de la
+      technologie.
+    </p>
+  </div>
+</div>
 ---
 
 **Table des matières**
