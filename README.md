@@ -16,21 +16,7 @@
     style="margin-right: 20px; border-radius: 8px; flex-shrink: 0;"
   />
   <!-- Deuxième GIF (TARS) -->
-  <img
-    src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5zM2JmNHJrNGx6em85MmhoOTJ2MjZ0em9vMXdudmN6OTN6NnhjcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XXYkaKVk1Luda/giphy.gif"
-    alt="Interstellar Animation 2"
-    width="270"
-    style="border-radius: 8px; flex-shrink: 0;"
-  />
 
-  <!-- Troisième GIF (à personnaliser) -->
-   <!-- GIF 3 : Coop shocked (exemple) -->
-  <img
-    src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnIzMDNkY2pjZzg3Zmc5Y3hreXVld2czbTRhbW1wZDNjczl2NDlvZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pZGDZwmxOtEEo/giphy.gif"
-    alt="Shocked Astronaut"
-    style="height: 200px; border-radius: 8px;"
-  />
- 
 </div>
   <!-- Texte à droite -->
   <div style="max-width: 400px;">
