@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  body { margin:0; background:#08090F; }
+  a { color:#b6abe8; text-decoration:none; }
+  a:hover { color:#d5cdf5; }
+  ::selection { background:rgba(145,132,217,.28); }
+</style>
+</helmet>
+
+<div style="background:#08090F;color:#e9e9ed;font-family:Inter,sans-serif;font-weight:300;padding:0 0 0 0;min-height:100vh">
+
+  <!-- ============ MOCKUP FRAME : simulates how the README renders on the profile page ============ -->
+  <div style="max-width:1320px;margin:0 auto;padding:40px 24px 0">
+    <div style="display:flex;align-items:center;gap:12px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;color:#5a5e78;padding:0 0 10px 2px">
+      <span>GINGASHIFT / README.MD</span>
+      <span style="flex:1;height:1px;background:linear-gradient(90deg,#23263a,transparent)"></span>
+      <span>PREVIEW · RENDERED WIDTH 1012PX</span>
+    </div>
+  </div>
+
+  <div style="max-width:1320px;margin:0 auto;padding:0 24px 80px">
+  <div style="border:1px solid #1c1f30;border-radius:10px;overflow:hidden;background:#0B0C14">
+
+  <!-- ================= ASSET 01 — HERO BANNER  (banner.svg / 1280×440) ================= -->
+  <div style="position:relative;height:440px;overflow:hidden;background:#08090F;border-bottom:1px solid #1a1d2c">
+    <img src="uploads/avatar-1786479396866-g2fm.jpg" alt="" style="position:absolute;inset:-8% -2%;width:104%;height:116%;object-fit:cover;mix-blend-mode:lighten;opacity:.62;filter:grayscale(.35) contrast(1.08)">
+    <div style="position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 46%, rgba(145,132,217,.16), transparent 62%), linear-gradient(180deg, rgba(8,9,15,.92) 0%, rgba(8,9,15,.86) 34%, rgba(8,9,15,.62) 56%, rgba(8,9,15,.34) 70%, rgba(8,9,15,.95) 100%)"></div>
+    <div style="position:absolute;left:0;right:0;top:88px;height:180px;background:linear-gradient(90deg, rgba(8,9,15,.86) 0%, rgba(8,9,15,.7) 55%, rgba(8,9,15,.15) 100%)"></div>
+
+    <!-- corner registration marks -->
+    <svg viewBox="0 0 1280 440" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
+      <g stroke="#9184d9" stroke-width="1" fill="none" opacity=".55">
+        <path d="M28 28 H68 M28 28 V68 M1252 28 H1212 M1252 28 V68 M28 412 H68 M28 412 V372 M1252 412 H1212 M1252 412 V372"></path>
+      </g>
+      <g stroke="#2b2f47" stroke-width="1" fill="none">
+        <path d="M0 372 H1280"></path>
+        <path d="M0 96 H1280" opacity=".5"></path>
+      </g>
+      <g stroke="#9184d9" stroke-width="1.2" fill="none" opacity=".9">
+        <path d="M-20 300 C 260 288, 420 250, 640 232 S 1040 190, 1300 150"></path>
+      </g>
+      <circle cx="640" cy="232" r="4.5" fill="#08090F" stroke="#9184d9" stroke-width="1.4"></circle>
+      <circle cx="640" cy="232" r="12" fill="none" stroke="#9184d9" stroke-width="1" opacity=".38"></circle>
+    </svg>
+
+    <div style="position:absolute;left:64px;right:64px;top:120px">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.34em;color:#8d86b8;margin-bottom:22px">EXPOSURE 001 &nbsp;·&nbsp; DARK FIELD &nbsp;·&nbsp; RA 05<span style="opacity:.6">h</span>35<span style="opacity:.6">m</span> &nbsp; DEC −05°23′</div>
+      <h1 style="margin:0;font-size:76px;line-height:.94;font-weight:300;letter-spacing:-.035em;color:#f2f1f6">EDEN&nbsp;ELFASSY</h1>
+      <div style="display:flex;align-items:center;gap:18px;margin-top:26px">
+        <span style="width:56px;height:1px;background:#9184d9"></span>
+        <span style="font-size:19px;font-weight:300;letter-spacing:.01em;color:#c9c7d6">Research engineer for space exploration systems</span>
+      </div>
+    </div>
+
+    <div style="position:absolute;left:64px;bottom:36px;right:64px;display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.2em;color:#5d6180">
+      <span>SPACE SYSTEMS · ASTROPHYSICS · EMBEDDED ELECTRONICS · SWARM ROBOTICS</span>
+      <span>GINGASHIFT</span>
+    </div>
+  </div>
+
+  <!-- ================= BODY : 3-column grid — left rail / content / right rail ================= -->
+  <div style="display:grid;grid-template-columns:74px minmax(0,1fr) 74px;background:#0B0C14">
+
+    <!-- ---------- ASSET 02 — LEFT RAIL (rail-left.svg / 74×2400, repeats) ---------- -->
+    <div style="border-right:1px solid #171a29;position:relative;background:linear-gradient(180deg,#0A0B12,#0B0C14)">
+      <svg viewBox="0 0 74 1600" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
+        <g stroke="#252943" stroke-width="1">
+          <path d="M53 0 V1600"></path>
+        </g>
+        <g stroke="#2f3451" stroke-width="1">
+          <path d="M46 40 H53 M46 80 H53 M46 120 H53 M46 160 H53 M46 200 H53 M46 240 H53 M46 280 H53 M46 320 H53 M46 360 H53 M46 400 H53 M46 440 H53 M46 480 H53 M46 520 H53 M46 560 H53 M46 600 H53 M46 640 H53 M46 680 H53 M46 720 H53 M46 760 H53 M46 800 H53 M46 840 H53 M46 880 H53 M46 920 H53 M46 960 H53 M46 1000 H53 M46 1040 H53 M46 1080 H53 M46 1120 H53 M46 1160 H53 M46 1200 H53 M46 1240 H53 M46 1280 H53 M46 1320 H53 M46 1360 H53 M46 1400 H53 M46 1440 H53 M46 1480 H53 M46 1520 H53 M46 1560 H53"></path>
+        </g>
+        <g stroke="#4b4f74" stroke-width="1.2">
+          <path d="M34 200 H53 M34 400 H53 M34 600 H53 M34 800 H53 M34 1000 H53 M34 1200 H53 M34 1400 H53"></path>
+        </g>
+        <g fill="#9184d9">
+          <circle cx="53" cy="200" r="2.6"></circle>
+          <circle cx="53" cy="800" r="2.6"></circle>
+          <circle cx="53" cy="1400" r="2.6"></circle>
+        </g>
+        <g stroke="#9184d9" stroke-width="1" fill="none" opacity=".45">
+          <path d="M53 620 C 10 700, 10 860, 53 940"></path>
+          <path d="M53 1180 C 22 1230, 22 1330, 53 1380"></path>
+        </g>
+      </svg>
+      <div style="position:absolute;left:12px;top:190px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:#565a7c;writing-mode:vertical-rl;transform:rotate(180deg)">PLATE 01 · MISSIONS</div>
+      <div style="position:absolute;left:12px;top:640px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:#565a7c;writing-mode:vertical-rl;transform:rotate(180deg)">PLATE 02 · SYSTEMS</div>
+      <div style="position:absolute;left:12px;top:1150px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:#565a7c;writing-mode:vertical-rl;transform:rotate(180deg)">PLATE 03 · FIELD</div>
+    </div>
+
+    <!-- ---------- CONTENT COLUMN ---------- -->
+    <div style="padding:0">
+
+      <!-- ===== INTRODUCTION — kept to three lines so the record band lands high on the page ===== -->
+      <div style="padding:48px 56px 34px">
+        <p style="margin:0;font-size:17.5px;line-height:1.62;color:#d6d4e0;text-wrap:pretty;max-width:62ch">I design and build the electronics, embedded systems and scientific software that let experiments survive the environments we send them into, and the interfaces that let people read what comes back.</p>
+      </div>
+
+      <!-- ===== ASSET 05 — SELECTED RECORD  (the accomplishment band, highest-value block on the page) ===== -->
+      <div style="padding:0 56px 8px">
+        <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:2px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;color:#9184d9">RECORD</span>
+          <span style="flex:1;height:1px;background:linear-gradient(90deg,#282c42,transparent)"></span>
+        </div>
+
+        <div style="display:flex;flex-direction:column">
+          <div style="display:grid;grid-template-columns:112px minmax(0,1fr) 220px;gap:24px;align-items:baseline;padding:20px 0;border-bottom:1px solid #1a1d2c">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;color:#c9a45e">MAR 2027</span>
+            <span><span style="font-size:19px;color:#f0eef6;font-weight:400">Co-founder &amp; Electronics Lead, STAR-D (REXUS 38)</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:6px;max-width:66ch">Electrical architecture and four flight boards for an ESA-supported sounding-rocket experiment. Critical Design Review passed at DLR-MORABA, June 2026.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">ESA REXUS/BEXUS · DLR</span>
+          </div>
+
+          <div style="display:grid;grid-template-columns:112px minmax(0,1fr) 220px;gap:24px;align-items:baseline;padding:20px 0;border-bottom:1px solid #1a1d2c">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;color:#8c88ab">SEP 2026</span>
+            <span><span style="font-size:19px;color:#f0eef6;font-weight:400">First author, poster paper at SpaceCHI 2026</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:6px;max-width:66ch">“Design Considerations for Tangible Human–Swarm Interaction in Orbital Habitat Inspection.” Conference held 24–25 September at the NASA Ames Conference Center.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">NASA AMES CONF. CENTER</span>
+          </div>
+
+          <div style="display:grid;grid-template-columns:112px minmax(0,1fr) 220px;gap:24px;align-items:baseline;padding:20px 0;border-bottom:1px solid #1a1d2c">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;color:#8c88ab">MAY–AUG 2026</span>
+            <span><span style="font-size:19px;color:#f0eef6;font-weight:400">Research internship in decentralised swarm robotics</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:6px;max-width:66ch">Institute for Future Technologies. Collective behaviour on STM32 and ESP32 platforms: leader/follower dynamics, perception, distance keeping, human–swarm interaction.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">INST. FOR FUTURE TECH.</span>
+          </div>
+
+          <div style="display:grid;grid-template-columns:112px minmax(0,1fr) 220px;gap:24px;align-items:baseline;padding:20px 0;border-bottom:1px solid #1a1d2c">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;color:#8c88ab">2026</span>
+            <span><span style="font-size:19px;color:#f0eef6;font-weight:400">Roll control system, C'Space 2026</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:6px;max-width:66ch">Designed the onboard control board for an active roll control subsystem, integrated into the vehicle's mechanical stack.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">CNES · PLANÈTE SCIENCES</span>
+          </div>
+
+          <div style="display:grid;grid-template-columns:112px minmax(0,1fr) 220px;gap:24px;align-items:baseline;padding:20px 0;border-bottom:1px solid #1a1d2c">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;color:#8c88ab">SINCE SEP 2025</span>
+            <span><span style="font-size:19px;color:#f0eef6;font-weight:400">Systems member, NASA RASC-AL 2026 with the Illinois Space Society</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:6px;max-width:66ch">Systems work on the team's concept for mining and advanced transformation of regolith for infrastructure and expansion.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">ILLINOIS SPACE SOCIETY</span>
+          </div>
+
+          <div style="display:grid;grid-template-columns:112px minmax(0,1fr) 220px;gap:24px;align-items:baseline;padding:20px 0;border-bottom:1px solid #1a1d2c">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;color:#8c88ab">JUL 2025</span>
+            <span><span style="font-size:19px;color:#f0eef6;font-weight:400">C'Space 2025 launch campaign with LéoFly</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:6px;max-width:66ch">Student engineer and Communication &amp; Design lead: team identity, website and project outreach. The team launched RedFly, Solaris and Zenith during the campaign, 5–12 July 2025.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">CNES · PLANÈTE SCIENCES</span>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:26px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;padding:20px 0 0"><a href="https://www.linkedin.com/in/elfassy-eden">LINKEDIN ↗</a><span style="color:#4c5069">GINGASHIFT</span></div>
+      </div>
+
+      <!-- ===== ASSET 03 — SECTION SEPARATOR (divider-a.svg / 1012×72) ===== -->
+      <div style="height:72px;position:relative">
+        <svg viewBox="0 0 1012 72" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
+          <path d="M0 18 C 200 18, 300 54, 520 54 S 840 22, 1012 22" fill="none" stroke="#9184d9" stroke-width="1" opacity=".55"></path>
+          <path d="M0 36 H1012" stroke="#181b29" stroke-width="1"></path>
+          <circle cx="520" cy="54" r="3" fill="#9184d9"></circle>
+        </svg>
+      </div>
+
+      <!-- ===== ASSET 06 — STAR-D FEATURE PLATE (the flagship, given its own full-width block) ===== -->
+      <div style="padding:76px 56px 0">
+        <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:30px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;color:#9184d9">EXP. 001</span>
+          <h2 style="margin:0;font-size:26px;font-weight:400;letter-spacing:.02em;color:#eceaf3">STAR-D flight electronics</h2>
+          <span style="flex:1;height:1px;background:linear-gradient(90deg,#282c42,transparent)"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#c9a45e">REXUS 38 · MAR 2027</span>
+        </div>
+
+        <div style="border:1px solid #1a1d2c;background:#0D0F18">
+          <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr)">
+            <div style="padding:32px 32px 28px">
+              <p style="margin:0 0 16px;font-size:15.5px;line-height:1.62;color:#c9c7d8;max-width:48ch">STAR-D studies the effect of microgravity on phagocytosis in <span style="font-style:italic">Dictyostelium</span>, using automated microscopy and microfluidics aboard a sounding rocket.</p>
+              <p style="margin:0 0 26px;font-size:13.5px;line-height:1.66;color:#82869e;max-width:52ch">Co-founder and Electronics Lead since September 2025 in an international team. I designed the electrical architecture and the four flight boards; prototypes are assembled, with debugging and integration under way.</p>
+              <div style="display:flex;flex-direction:column">
+                <div style="display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:11px 0;border-top:1px solid #1a1d2c;font-size:13px;color:#a6aabf"><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#8c88ab">MAIN BOARD</span><span>Experiment control, motor driver, heaters, sensor bus</span></div>
+                <div style="display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:11px 0;border-top:1px solid #1a1d2c;font-size:13px;color:#a6aabf"><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#8c88ab">POWER BOARD</span><span>Rocket bus conditioning and protection</span></div>
+                <div style="display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:11px 0;border-top:1px solid #1a1d2c;font-size:13px;color:#a6aabf"><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#8c88ab">5 V BOARD</span><span>Regulated rail to the compute module and microscope LEDs</span></div>
+                <div style="display:grid;grid-template-columns:118px minmax(0,1fr);gap:18px;padding:11px 0;border-top:1px solid #1a1d2c;border-bottom:1px solid #1a1d2c;font-size:13px;color:#a6aabf"><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#8c88ab">LED BOARD</span><span>Illumination for the imaging chain</span></div>
+              </div>
+              <div style="display:flex;gap:22px;margin-top:22px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584"><span>CDR · DLR-MORABA · JUN 2026</span><span style="color:#c9a45e">FLIGHT · MAR 2027</span></div>
+            </div>
+
+            <div style="border-left:1px solid #1a1d2c;display:grid;grid-template-rows:1.25fr .75fr">
+              <div style="position:relative;overflow:hidden;background:#0A0B12;border-bottom:1px solid #1a1d2c">
+                <img src="assets/star-d-module.png" alt="STAR-D experiment module, CAD assembly" style="width:100%;height:100%;object-fit:cover;filter:grayscale(.6) brightness(.92) contrast(1.05);opacity:.92">
+                <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,12,20,.1),rgba(11,12,20,.72))"></div>
+                <div style="position:absolute;left:16px;bottom:12px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#9aa0bd">FIG. 01 · EXPERIMENT MODULE ASSEMBLY</div>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr">
+                <div style="position:relative;overflow:hidden;background:#0A0B12;border-right:1px solid #1a1d2c">
+                  <img src="assets/star-d-mainboard.png" alt="STAR-D main board layout" style="width:100%;height:100%;object-fit:cover;filter:saturate(.5) brightness(.8);opacity:.9">
+                  <div style="position:absolute;left:12px;bottom:10px;padding:3px 7px;background:rgba(8,9,15,.78);font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;color:#c3c8de">FIG. 02 · MAIN BOARD</div>
+                </div>
+                <div style="position:relative;overflow:hidden;background:#0A0B12">
+                  <img src="assets/star-d-5v-board.png" alt="STAR-D 5 V board PCB layout" style="width:100%;height:100%;object-fit:cover;filter:saturate(.75) brightness(.95);opacity:.95">
+                  <div style="position:absolute;left:12px;bottom:10px;padding:3px 7px;background:rgba(8,9,15,.78);font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;color:#c3c8de">FIG. 03 · 5 V BOARD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== SECTION — OTHER ACTIVE MISSIONS ===== -->
+      <div style="padding:76px 56px 8px">
+        <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:34px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;color:#9184d9">EXP. 002</span>
+          <h2 style="margin:0;font-size:26px;font-weight:400;letter-spacing:.02em;color:#eceaf3">Research &amp; missions</h2>
+          <span style="flex:1;height:1px;background:linear-gradient(90deg,#282c42,transparent)"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#575b7a">06 ENTRIES</span>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#1a1d2c;border:1px solid #1a1d2c">
+
+          <!-- mission 01 — C'Space / LéoFly (full-width plate: the vehicles stand in the right half) -->
+          <div style="background:#0D0F18;padding:0;position:relative;grid-column:span 2;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.02fr)">
+            <div style="padding:28px 28px 26px">
+              <div style="display:flex;gap:20px;align-items:baseline;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#575b7a;margin-bottom:20px"><span>M-01</span><span>5–12 JUL 2025</span></div>
+              <svg viewBox="0 0 300 44" style="width:100%;height:44px;margin-bottom:18px">
+                <g stroke="#2e3350" stroke-width="1" fill="none"><path d="M0 40 H300"></path></g>
+                <g stroke="#9184d9" stroke-width="1.2" fill="none">
+                  <path d="M30 40 C 46 22, 62 10, 82 6"></path>
+                  <path d="M120 40 C 138 22, 156 10, 178 6"></path>
+                  <path d="M210 40 C 228 22, 246 10, 268 6"></path>
+                </g>
+                <g fill="#9184d9"><circle cx="82" cy="6" r="2.8"></circle><circle cx="178" cy="6" r="2.8"></circle><circle cx="268" cy="6" r="2.8"></circle></g>
+              </svg>
+              <h3 style="margin:0 0 10px;font-size:20px;font-weight:400;color:#f0eef6">C'Space 2025 with LéoFly</h3>
+              <p style="margin:0 0 14px;font-size:13.5px;line-height:1.6;color:#8a8ea6;max-width:48ch">Student engineer and Communication &amp; Design lead: visual identity, website and outreach for the team. LéoFly launched RedFly, Solaris and Zenith during the campaign at the CNES / Planète Sciences site.</p>
+              <div style="display:flex;align-items:center;gap:14px;margin-top:18px">
+                <img src="assets/cspace-patch.png" alt="C'Space 2025 emblem" style="width:52px;height:52px;object-fit:contain;filter:grayscale(.75) brightness(1.1);opacity:.8;flex:none">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;color:#616584">CNES · PLANÈTE SCIENCES</span>
+              </div>
+            </div>
+
+            <!-- LéoFly 2025 vehicles — team work, not attributed to a single subsystem -->
+            <div style="border-left:1px solid #1a1d2c;padding:26px 24px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:end;background:linear-gradient(180deg,#0A0B12,#0D0F18)">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:10px;min-width:0">
+                <img src="assets/leofly-redfly.png" alt="RedFly launch vehicle" style="width:100%;max-height:230px;object-fit:contain;filter:brightness(1.02)">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.16em;color:#616584">REDFLY</span>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:10px;min-width:0">
+                <img src="uploads/Capture_d_e%CC%81cran_2025-05-15_a%CC%80_20.39.26-removebg-preview.png" alt="Launch vehicle CAD model" style="width:100%;max-height:210px;object-fit:contain;filter:grayscale(1) brightness(.9);opacity:.85">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.16em;color:#616584">CAD MODEL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- mission 02 — C'Space 2026, roll control system (her own subsystem) -->
+          <div style="background:#0D0F18;grid-column:span 2;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.02fr)">
+            <div style="padding:28px 28px 26px">
+              <div style="display:flex;gap:20px;align-items:baseline;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#575b7a;margin-bottom:20px"><span>M-02</span><span>C'SPACE 2026</span></div>
+              <svg viewBox="0 0 300 44" style="width:100%;height:44px;margin-bottom:18px">
+                <g stroke="#2e3350" stroke-width="1" fill="none"><path d="M0 22 H300"></path></g>
+                <g fill="none" stroke="#9184d9" stroke-width="1.2"><circle cx="150" cy="22" r="17"></circle></g>
+                <g stroke="#9184d9" stroke-width="1.2" fill="none"><path d="M150 5 A17 17 0 0 1 167 22"></path><path d="M120 22 H96 M204 22 H180"></path></g>
+                <g fill="#9184d9"><path d="M96 22 l7 -4 v8 z"></path><path d="M204 22 l-7 -4 v8 z"></path></g>
+              </svg>
+              <h3 style="margin:0 0 10px;font-size:20px;font-weight:400;color:#f0eef6">Roll control system</h3>
+              <p style="margin:0 0 14px;font-size:13.5px;line-height:1.6;color:#8a8ea6;max-width:48ch">Onboard electronics for an active roll control subsystem: sensing, actuation drive and control interface, designed as a compact board integrated into the mechanical stack.</p>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;color:#616584">MY OWN SUBSYSTEM · BOARD DESIGN</div>
+            </div>
+            <div style="border-left:1px solid #1a1d2c;padding:26px 24px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:center;background:linear-gradient(180deg,#0A0B12,#0D0F18)">
+              <div style="display:flex;flex-direction:column;align-items:center;gap:10px;min-width:0">
+                <img src="assets/roll-control.png" alt="Roll control assembly, CAD" style="width:100%;max-height:200px;object-fit:contain;filter:grayscale(.55) brightness(.95);opacity:.95">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.16em;color:#616584">ROLL CONTROL</span>
+              </div>
+              <div style="display:flex;flex-direction:column;align-items:center;gap:10px;min-width:0">
+                <img src="assets/leofly-board.png" alt="Roll control board" style="width:100%;max-height:180px;object-fit:contain;filter:saturate(.75) brightness(1)">
+                <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.16em;color:#616584">CONTROL BOARD</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- mission 03 — SpaceCHI -->
+          <div style="background:#0D0F18;padding:28px 28px 24px;min-height:236px">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#575b7a;margin-bottom:20px"><span>M-03</span><span>24–25 SEP 2026</span></div>
+            <svg viewBox="0 0 300 44" style="width:100%;height:44px;margin-bottom:18px">
+              <g stroke="#2e3350" stroke-width="1" fill="none"><path d="M0 40 H300 M0 4 H300" opacity=".5"></path></g>
+              <path d="M0 34 C 40 34, 52 12, 78 12 S 110 34, 140 34 S 178 8, 210 8 S 250 30, 300 26" fill="none" stroke="#9184d9" stroke-width="1.2"></path>
+              <g fill="#9184d9" opacity=".9"><circle cx="78" cy="12" r="2.4"></circle><circle cx="210" cy="8" r="2.4"></circle></g>
+            </svg>
+            <h3 style="margin:0 0 8px;font-size:20px;font-weight:400;color:#f0eef6">SpaceCHI 2026</h3>
+            <p style="margin:0 0 14px;font-size:13.5px;line-height:1.6;color:#8a8ea6;max-width:42ch">First author of <span style="color:#b9b5d2">“Design Considerations for Tangible Human–Swarm Interaction in Orbital Habitat Inspection.”</span> Accepted poster paper.</p>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;color:#616584">HELD AT NASA AMES CONFERENCE CENTER</div>
+          </div>
+
+          <!-- mission 04 — swarm robotics -->
+          <div style="background:#0D0F18;padding:28px 122px 24px 28px;min-height:236px;position:relative;overflow:hidden">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#575b7a;margin-bottom:20px"><span>M-04</span><span>RESEARCH</span></div>
+            <svg viewBox="0 0 300 44" style="width:100%;height:44px;margin-bottom:18px">
+              <g stroke="#9184d9" stroke-width="1" fill="none" opacity=".55"><path d="M46 22 H92 M110 22 H150 M168 22 H206 M224 22 H258"></path></g>
+              <g fill="none" stroke="#9184d9" stroke-width="1.2"><circle cx="38" cy="22" r="7"></circle><circle cx="101" cy="22" r="5"></circle><circle cx="159" cy="22" r="5"></circle><circle cx="215" cy="22" r="5"></circle><circle cx="266" cy="22" r="5"></circle></g>
+              <circle cx="38" cy="22" r="2.6" fill="#9184d9"></circle>
+            </svg>
+            <h3 style="margin:0 0 8px;font-size:20px;font-weight:400;color:#f0eef6">Decentralised swarm behaviour</h3>
+            <p style="margin:0 0 14px;font-size:13.5px;line-height:1.6;color:#8a8ea6;max-width:38ch">Research internship on collective behaviour in decentralised robot swarms. STM32 and ESP32 platforms, leader/follower dynamics, perception and distance keeping, PCB fabrication and debugging, human–swarm interaction.</p>
+            <div style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;color:#616584">INSTITUTE FOR FUTURE TECHNOLOGIES</div>
+            <img src="assets/swarm-robot.png" alt="Swarm robot unit" style="position:absolute;right:14px;bottom:20px;width:96px;opacity:.55;filter:grayscale(.8) brightness(.85) contrast(1.1);pointer-events:none">
+          </div>
+
+          <!-- mission 05 — AstroPhenomena (spans both columns; the orbital field fills the right half) -->
+          <div style="background:#0D0F18;grid-column:span 2;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)">
+            <div style="padding:28px 28px 24px">
+              <div style="display:flex;gap:20px;align-items:baseline;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#575b7a;margin-bottom:20px"><span>M-05</span><span>IN DEVELOPMENT</span></div>
+              <h3 style="margin:0 0 10px;font-size:20px;font-weight:400;color:#f0eef6">AstroPhenomena Explorer</h3>
+              <p style="margin:0 0 14px;font-size:13.5px;line-height:1.6;color:#8a8ea6;max-width:52ch">An interactive scientific platform for astronomical phenomena: simulation, observability windows and visualisation of astrophysical data, built to make an observing decision readable at a glance.</p>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;color:#616584">PYTHON · ASTROPY · NEXT.JS · THREE.JS</div>
+            </div>
+            <div style="border-left:1px solid #1a1d2c;position:relative;min-height:196px;background:#0A0B12">
+              <svg viewBox="0 0 460 196" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
+                <g stroke="#1c2033" stroke-width="1"><path d="M0 98 H460 M230 0 V196"></path></g>
+                <g fill="none" stroke="#9184d9" stroke-width="1" opacity=".7"><circle cx="230" cy="98" r="34"></circle><circle cx="230" cy="98" r="62"></circle><circle cx="230" cy="98" r="88"></circle></g>
+                <g fill="#9184d9"><circle cx="230" cy="98" r="4"></circle><circle cx="264" cy="98" r="2.6"></circle><circle cx="230" cy="36" r="2.6"></circle></g>
+                <circle cx="142" cy="98" r="3" fill="#c9a45e"></circle>
+                <g stroke="#3a3f5e" stroke-width="1"><path d="M40 40 H62 M40 40 V62 M420 156 H398 M420 156 V134"></path></g>
+              </svg>
+              <div style="position:absolute;left:16px;bottom:12px;font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:.18em;color:#5d6180">OBSERVABILITY FIELD</div>
+            </div>
+          </div>
+
+          <!-- mission 06 — NASA RASC-AL (spans both columns) -->
+          <div style="background:#0D0F18;padding:28px 28px 24px;grid-column:span 2;display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:32px;align-items:center">
+            <div>
+              <div style="display:flex;gap:20px;align-items:baseline;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.2em;color:#575b7a;margin-bottom:16px"><span>M-06</span><span>SINCE SEP 2025</span></div>
+              <h3 style="margin:0 0 8px;font-size:20px;font-weight:400;color:#f0eef6">NASA RASC-AL 2026 with the Illinois Space Society</h3>
+              <p style="margin:0;font-size:13.5px;line-height:1.6;color:#8a8ea6;max-width:62ch">Systems member of the team competing in the Revolutionary Aerospace Systems Concepts / Academic Linkage forum, on mining and advanced transformation of regolith for infrastructure and expansion.</p>
+            </div>
+            <div style="display:flex;gap:26px;align-items:center;justify-content:flex-end">
+              <img src="assets/iss-illinois.png" alt="Illinois Space Society emblem" style="width:118px;height:auto;object-fit:contain;opacity:.95">
+              <img src="uploads/proof-1786483530474-r71i.png" alt="Team mission patch" style="width:104px;height:104px;object-fit:contain;filter:grayscale(.4) brightness(1.05);opacity:.92">
+              <img src="uploads/proof-1786483526695-k5w4.png" alt="RASC-AL emblem" style="width:96px;height:96px;object-fit:contain;filter:grayscale(.4) brightness(1.05);opacity:.92">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== SEPARATOR B ===== -->
+      <div style="height:80px;position:relative">
+        <svg viewBox="0 0 1012 80" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
+          <path d="M0 22 C 240 22, 320 62, 560 62 S 900 30, 1012 30" fill="none" stroke="#9184d9" stroke-width="1" opacity=".5"></path>
+          <g stroke="#1a1d2c" stroke-width="1"><path d="M0 44 H1012"></path></g>
+        </svg>
+      </div>
+
+      <!-- ===== SECTION — FEATURED SYSTEMS ===== -->
+      <div style="padding:0 56px">
+        <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:30px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;color:#9184d9">EXP. 003</span>
+          <h2 style="margin:0;font-size:26px;font-weight:400;letter-spacing:.02em;color:#eceaf3">Featured systems</h2>
+          <span style="flex:1;height:1px;background:linear-gradient(90deg,#282c42,transparent)"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#575b7a">SELECTED</span>
+        </div>
+
+        <div style="display:flex;flex-direction:column">
+          <a href="https://github.com/GingaShift/star-d-electronics" style="display:grid;grid-template-columns:64px minmax(0,1fr) 190px;gap:24px;align-items:center;padding:22px 4px;border-top:1px solid #1a1d2c;color:inherit">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#616584">S-01</span>
+            <span><span style="font-size:17px;color:#eceaf3">star-d-electronics</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:5px;max-width:64ch">Flight electronics for the STAR-D experiment: board architecture, sensor instrumentation and experiment control firmware.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">C · STM32 · KICAD</span>
+          </a>
+          <a href="https://github.com/GingaShift/nova-retrieval-engine" style="display:grid;grid-template-columns:64px minmax(0,1fr) 190px;gap:24px;align-items:center;padding:22px 4px;border-top:1px solid #1a1d2c;color:inherit">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#616584">S-02</span>
+            <span><span style="font-size:17px;color:#eceaf3">nova-retrieval-engine</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:5px;max-width:64ch">NOVA, a retrieval engine for scientific corpora: indexing, ranking and query evaluation over structured document sets.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">PYTHON · IR</span>
+          </a>
+          <a href="https://github.com/GingaShift/cdataframe-engine" style="display:grid;grid-template-columns:64px minmax(0,1fr) 190px;gap:24px;align-items:center;padding:22px 4px;border-top:1px solid #1a1d2c;color:inherit">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#616584">S-03</span>
+            <span><span style="font-size:17px;color:#eceaf3">cdataframe-engine</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:5px;max-width:64ch">A dataframe implementation written from scratch in C: memory layout, typed columns and manual allocation strategy.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">C · DATA STRUCTURES</span>
+          </a>
+          <a href="https://github.com/GingaShift/Anssi-Vulnerability-Intelligence" style="display:grid;grid-template-columns:64px minmax(0,1fr) 190px;gap:24px;align-items:center;padding:22px 4px;border-top:1px solid #1a1d2c;border-bottom:1px solid #1a1d2c;color:inherit">
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#616584">S-04</span>
+            <span><span style="font-size:17px;color:#eceaf3">Anssi-Vulnerability-Intelligence</span><span style="display:block;font-size:13.5px;color:#82869e;margin-top:5px;max-width:64ch">Collection and analysis of published vulnerability advisories: parsing, enrichment and severity intelligence.</span></span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;color:#616584;text-align:right">PYTHON · SECURITY</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ===== SECTION — RESEARCH COORDINATES ===== -->
+      <div style="padding:76px 56px 0">
+        <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:30px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;color:#9184d9">EXP. 004</span>
+          <h2 style="margin:0;font-size:26px;font-weight:400;letter-spacing:.02em;color:#eceaf3">Research coordinates</h2>
+          <span style="flex:1;height:1px;background:linear-gradient(90deg,#282c42,transparent)"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#575b7a">FIELD CHART</span>
+        </div>
+
+        <div style="position:relative;height:400px;border:1px solid #1a1d2c;background:#0A0B12;background-image:linear-gradient(#12152100 0,#121521 0),repeating-linear-gradient(90deg,#14172400 0 62px,#161a29 62px 63px),repeating-linear-gradient(180deg,#14172400 0 50px,#161a29 50px 51px);overflow:hidden">
+          <svg viewBox="0 0 900 400" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
+            <g fill="none" stroke="#9184d9" opacity=".28" stroke-width="1">
+              <ellipse cx="450" cy="200" rx="120" ry="80"></ellipse>
+              <ellipse cx="450" cy="200" rx="250" ry="150"></ellipse>
+              <ellipse cx="450" cy="200" rx="390" ry="196"></ellipse>
+            </g>
+            <g stroke="#2a2e47" stroke-width="1"><path d="M450 0 V400 M0 200 H900"></path></g>
+          </svg>
+          <div style="position:absolute;left:calc(50% - 34px);top:calc(50% - 34px);width:68px;height:68px;border:1px solid #4a4270;border-radius:50%;background:radial-gradient(circle,rgba(145,132,217,.22),transparent 70%)"></div>
+
+          <div style="position:absolute;left:14%;top:16%;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#cfcbe2"><span style="display:block;color:#9184d9;font-size:9.5px;letter-spacing:.2em;margin-bottom:5px">α 01</span>SPACE SYSTEMS</div>
+          <div style="position:absolute;right:12%;top:12%;text-align:right;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#cfcbe2"><span style="display:block;color:#9184d9;font-size:9.5px;letter-spacing:.2em;margin-bottom:5px">α 02</span>ASTROPHYSICS</div>
+          <div style="position:absolute;left:7%;top:52%;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#cfcbe2"><span style="display:block;color:#9184d9;font-size:9.5px;letter-spacing:.2em;margin-bottom:5px">α 03</span>EMBEDDED ELECTRONICS</div>
+          <div style="position:absolute;right:8%;top:48%;text-align:right;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#cfcbe2"><span style="display:block;color:#9184d9;font-size:9.5px;letter-spacing:.2em;margin-bottom:5px">α 04</span>AI &amp; SCIENTIFIC COMPUTING</div>
+          <div style="position:absolute;left:19%;bottom:11%;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#cfcbe2"><span style="display:block;color:#9184d9;font-size:9.5px;letter-spacing:.2em;margin-bottom:5px">α 05</span>SWARM ROBOTICS</div>
+          <div style="position:absolute;right:7%;bottom:19%;text-align:right;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#cfcbe2"><span style="display:block;color:#9184d9;font-size:9.5px;letter-spacing:.2em;margin-bottom:5px">α 06</span>HUMAN–SPACE INTERACTION</div>
+          <div style="position:absolute;left:calc(50% - 100px);bottom:3%;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#cfcbe2;width:200px"><span style="display:block;color:#c9a45e;font-size:9.5px;letter-spacing:.2em;margin-bottom:5px">α 07</span>BIOMEDICAL TECHNOLOGIES</div>
+        </div>
+      </div>
+
+      <!-- ===== SECTION — TECHNICAL ARSENAL ===== -->
+      <div style="padding:76px 56px 0">
+        <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:26px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;color:#9184d9">EXP. 005</span>
+          <h2 style="margin:0;font-size:26px;font-weight:400;letter-spacing:.02em;color:#eceaf3">Instrumentation</h2>
+          <span style="flex:1;height:1px;background:linear-gradient(90deg,#282c42,transparent)"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#575b7a">BY FUNCTION</span>
+        </div>
+
+        <div style="display:flex;flex-direction:column">
+          <div style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding:16px 0;border-top:1px solid #1a1d2c"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8c88ab">SCIENTIFIC COMPUTING</span><span style="font-size:14px;color:#a6aabf">Python · NumPy · SciPy · Astropy · Pandas · Matplotlib</span></div>
+          <div style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding:16px 0;border-top:1px solid #1a1d2c"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8c88ab">EMBEDDED SYSTEMS</span><span style="font-size:14px;color:#a6aabf">C · STM32 · ESP32 · FreeRTOS · UART / I²C / SPI · sensor drivers</span></div>
+          <div style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding:16px 0;border-top:1px solid #1a1d2c"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8c88ab">ELECTRONICS &amp; PCB</span><span style="font-size:14px;color:#a6aabf">KiCad · schematic capture · multilayer routing · bring-up · debugging</span></div>
+          <div style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding:16px 0;border-top:1px solid #1a1d2c"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8c88ab">AI &amp; DATA</span><span style="font-size:14px;color:#a6aabf">PyTorch · scikit-learn · CNNs · gradient boosting · evaluation design</span></div>
+          <div style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding:16px 0;border-top:1px solid #1a1d2c"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8c88ab">INTERACTIVE VISUALISATION</span><span style="font-size:14px;color:#a6aabf">React · Next.js · Three.js · D3 · WebGL</span></div>
+          <div style="display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px;padding:16px 0;border-top:1px solid #1a1d2c;border-bottom:1px solid #1a1d2c"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;color:#8c88ab">PROTOTYPING &amp; RESEARCH</span><span style="font-size:14px;color:#a6aabf">Experimental design · test benches · Git · LaTeX · technical writing</span></div>
+        </div>
+      </div>
+
+      <!-- ===== SECTION — TRAJECTORY ===== -->
+      <div style="padding:76px 56px 0">
+        <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:34px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;color:#9184d9">EXP. 006</span>
+          <h2 style="margin:0;font-size:26px;font-weight:400;letter-spacing:.02em;color:#eceaf3">Training</h2>
+          <span style="flex:1;height:1px;background:linear-gradient(90deg,#282c42,transparent)"></span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#1a1d2c;border:1px solid #1a1d2c">
+          <div style="background:#0D0F18;padding:26px 24px"><div style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#9184d9;margin-bottom:14px">2024 · 2028</div><div style="font-size:16px;color:#e6e4ef;margin-bottom:8px">ESILV, engineering degree</div><div style="font-size:13px;line-height:1.6;color:#82869e">Generalist engineering. Creative Technology major and MSc with the Institute for Future Technologies from September 2026.</div></div>
+          <div style="background:#0D0F18;padding:26px 24px"><div style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#9184d9;margin-bottom:14px">SINCE 2024</div><div style="font-size:16px;color:#e6e4ef;margin-bottom:8px">Observatoire de Paris, PSL</div><div style="font-size:13px;line-height:1.6;color:#82869e">University diploma in astronomy and astrophysics. First year completed; admitted to the second.</div></div>
+          <div style="background:#0D0F18;padding:26px 24px"><div style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#9184d9;margin-bottom:14px">SUMMER 2025</div><div style="font-size:16px;color:#e6e4ef;margin-bottom:8px">Queen's University Belfast</div><div style="font-size:13px;line-height:1.6;color:#82869e">Emerging Technologies for Sustainability &amp; Health. Team certificate for excellent oral presentation.</div></div>
+        </div>
+      </div>
+
+      <!-- ===== SECTION — ACTIVITY (custom-themed stat cards) ===== -->
+      <sc-if value="{{ showActivity }}" hint-placeholder-val="{{ true }}">
+      <div style="padding:76px 56px 0">
+        <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:26px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;color:#9184d9">EXP. 007</span>
+          <h2 style="margin:0;font-size:26px;font-weight:400;letter-spacing:.02em;color:#eceaf3">Signal</h2>
+          <span style="flex:1;height:1px;background:linear-gradient(90deg,#282c42,transparent)"></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#575b7a">LIVE FROM GITHUB</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+          <div style="border:1px solid #1a1d2c;background:#0D0F18;height:172px;display:flex;align-items:center;justify-content:center;position:relative">
+            <svg viewBox="0 0 400 172" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%;opacity:.5"><path d="M0 140 C 60 140, 90 96, 140 96 S 220 128, 270 108 S 340 52, 400 60" fill="none" stroke="#9184d9" stroke-width="1.2"></path></svg>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#5d6180;position:relative">github-readme-stats · themed</span>
+          </div>
+          <div style="border:1px solid #1a1d2c;background:#0D0F18;height:172px;display:flex;align-items:center;justify-content:center;position:relative">
+            <svg viewBox="0 0 400 172" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%;opacity:.45"><g fill="none" stroke="#9184d9" stroke-width="1"><ellipse cx="200" cy="86" rx="150" ry="46"></ellipse><ellipse cx="200" cy="86" rx="90" ry="70"></ellipse></g></svg>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.18em;color:#5d6180;position:relative">top languages · themed</span>
+          </div>
+        </div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.14em;color:#4c5069;margin-top:12px">CARDS RENDER WITH CUSTOM COLOUR PARAMETERS · NO INVENTED FIGURES</div>
+      </div>
+      </sc-if>
+
+      <!-- ===== FOOTER SIGNATURE ===== -->
+      <div style="position:relative;margin-top:88px;overflow:hidden;border-top:1px solid #1a1d2c;background:#0A0B12">
+        <img src="uploads/avatar-1786479398991-hwwn.jpg" alt="" style="position:absolute;left:0;right:0;top:-46%;width:100%;mix-blend-mode:lighten;opacity:.42;filter:grayscale(.5)">
+        <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,11,18,.94),rgba(10,11,18,.6) 42%,rgba(10,11,18,.99))"></div>
+        <svg viewBox="0 0 1012 340" style="position:absolute;inset:0;width:100%;height:100%" preserveAspectRatio="xMidYMid slice">
+          <g fill="none" stroke="#9184d9" stroke-width="1" opacity=".45"><ellipse cx="506" cy="196" rx="392" ry="120"></ellipse></g>
+          <circle cx="898" cy="196" r="3.2" fill="#c9a45e"></circle>
+          <circle cx="114" cy="196" r="2.2" fill="#9184d9" opacity=".7"></circle>
+        </svg>
+
+        <div style="position:relative;padding:66px 56px 0;display:flex;flex-direction:column;align-items:center;gap:26px;text-align:center">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.34em;color:#7f83a3">END OF TRANSMISSION · PLATE 07 · GINGASHIFT</div>
+          <div style="font-size:25px;font-weight:300;letter-spacing:.005em;color:#eeecf5;max-width:30ch;line-height:1.45;text-wrap:balance">Engineering the systems that let us explore, understand and live beyond Earth.</div>
+          <span style="width:64px;height:1px;background:#9184d9;opacity:.7"></span>
+        </div>
+
+        <div style="position:relative;margin:56px 56px 0;padding:20px 0 22px;border-top:1px solid #1a1d2c;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px">
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#4c5069">RA 05<span style="opacity:.6">h</span>35<span style="opacity:.6">m</span>17<span style="opacity:.6">s</span></span>
+          <span style="display:flex;gap:32px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em"><a href="https://www.linkedin.com/in/elfassy-eden">LINKEDIN</a><a href="https://github.com/GingaShift">GITHUB</a></span>
+          <span style="font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.2em;color:#4c5069;text-align:right">DEC −05°23′28″</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ---------- ASSET 04 — RIGHT RAIL (rail-right.svg / 74×2400) ---------- -->
+    <div style="border-left:1px solid #171a29;position:relative;background:linear-gradient(180deg,#0A0B12,#0B0C14)">
+      <svg viewBox="0 0 74 1600" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%">
+        <g stroke="#252943" stroke-width="1"><path d="M21 0 V1600"></path></g>
+        <g stroke="#2f3451" stroke-width="1"><path d="M21 60 H28 M21 120 H28 M21 180 H28 M21 240 H28 M21 300 H28 M21 360 H28 M21 420 H28 M21 480 H28 M21 540 H28 M21 600 H28 M21 660 H28 M21 720 H28 M21 780 H28 M21 840 H28 M21 900 H28 M21 960 H28 M21 1020 H28 M21 1080 H28 M21 1140 H28 M21 1200 H28 M21 1260 H28 M21 1320 H28 M21 1380 H28 M21 1440 H28 M21 1500 H28 M21 1560 H28"></path></g>
+        <g stroke="#9184d9" stroke-width="1" fill="none" opacity=".5"><path d="M21 120 C 62 210, 62 350, 21 440"></path><path d="M21 860 C 66 950, 66 1090, 21 1180"></path></g>
+        <g fill="none" stroke="#4b4f74" stroke-width="1"><rect x="12" y="640" width="18" height="18"></rect><rect x="12" y="676" width="18" height="18"></rect><path d="M30 649 H50 M30 685 H50 M50 640 V694"></path></g>
+        <g fill="#9184d9"><circle cx="21" cy="300" r="2.4"></circle><circle cx="21" cy="1020" r="2.4"></circle></g>
+      </svg>
+      <div style="position:absolute;right:10px;top:300px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:#565a7c;writing-mode:vertical-rl">DEC −05°23′ · MAG 4.2</div>
+      <div style="position:absolute;right:10px;top:980px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.22em;color:#565a7c;writing-mode:vertical-rl">EXPOSURE 1800 S · DARK FIELD</div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showActivity&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return { showActivity: this.props.showActivity ?? true };
+  }
+}
+</script>
+</body>
+</html>
