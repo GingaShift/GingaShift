@@ -242,22 +242,7 @@ Systems member of the team competing in the Revolutionary Aerospace Systems Conc
 | `2024 · 2028` | `SINCE 2024` | `SUMMER 2025` |
 | **ESILV, engineering degree**<br>Generalist engineering. Creative Technology major and MSc with the Institute for Future Technologies from September 2026. | **Observatoire de Paris, PSL**<br>University diploma in astronomy and astrophysics. First year completed; admitted to the second. | **Queen's University Belfast**<br>Emerging Technologies for Sustainability &amp; Health. Team certificate for excellent oral presentation. |
 
-<!-- ============================== SIGNAL ==================================
-     assets/hdr-signal.svg · 1012×112
-     Live GitHub cards, themed to the palette with explicit colour parameters
-     so they sit inside the art direction. No invented figures: the numbers
-     come from GitHub itself. Delete this block to remove the statistics.
--->
-<img src="assets/hdr-signal.svg" alt="Signal" width="100%">
 
-<table>
-<tr>
-<td width="50%"><img src="https://github-readme-stats.vercel.app/api?username=GingaShift&show_icons=true&hide_border=true&hide_title=true&bg_color=0D0F18&title_color=9184d9&text_color=82869e&icon_color=9184d9&ring_color=9184d9" alt="GitHub statistics for GingaShift" width="100%"></td>
-<td width="50%"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GingaShift&layout=compact&hide_border=true&hide_title=true&langs_count=8&bg_color=0D0F18&title_color=9184d9&text_color=82869e" alt="Most used languages" width="100%"></td>
-</tr>
-</table>
-
-<img src="assets/divider-03.svg" alt="" width="100%">
 
 <!-- ============================== FOOTER SIGNATURE ========================
      assets/footer.svg · 1280×360 — closing orbit, signature line, coordinates.
