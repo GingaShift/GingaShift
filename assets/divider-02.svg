@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="72" viewBox="0 0 1012 72" role="img" aria-label="section divider">
+<rect width="1012" height="72" fill="#0B0C14"></rect>
+<path d="M28 0 V72" stroke="#252943" stroke-width="1"></path><path d="M28 10 H42" stroke="#2f3451" stroke-width="1"></path><path d="M28 24 H35" stroke="#2f3451" stroke-width="1"></path><path d="M28 38 H35" stroke="#2f3451" stroke-width="1"></path><path d="M28 52 H35" stroke="#2f3451" stroke-width="1"></path><path d="M28 66 H42" stroke="#2f3451" stroke-width="1"></path><path d="M984 0 V72" stroke="#252943" stroke-width="1"></path><path d="M984 10 H970" stroke="#2f3451" stroke-width="1"></path><path d="M984 24 H977" stroke="#2f3451" stroke-width="1"></path><path d="M984 38 H977" stroke="#2f3451" stroke-width="1"></path><path d="M984 52 H977" stroke="#2f3451" stroke-width="1"></path><path d="M984 66 H970" stroke="#2f3451" stroke-width="1"></path>
+<path d="M0 54 C 200 54, 300 20, 506 20 S 840 54, 1012 54" fill="none" stroke="#9184d9" stroke-width="1" opacity=".55"></path>
+<path d="M120 36 H892" stroke="#181b29" stroke-width="1"></path>
+<circle cx="506" cy="20" r="3" fill="#9184d9"></circle>
+</svg>
