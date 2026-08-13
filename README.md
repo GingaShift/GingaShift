@@ -36,10 +36,41 @@
 -->
 <img src="assets/banner.svg" alt="Eden Elfassy — research engineer for space exploration systems" width="100%">
 
-<!-- ============================== INTRODUCTION ============================
-     Three lines, deliberately short, so the record band lands high on the page.
+<!-- ============================== LINK ROW ================================
+     Three custom buttons, each a small SVG wrapped in a link.
+     A fourth, assets/btn-email.svg, is ready: uncomment it and add your address.
 -->
-I design and build the electronics, embedded systems and scientific software that let experiments survive the environments we send them into, and the interfaces that let people read what comes back.
+<p align="left">
+  <a href="https://www.linkedin.com/in/elfassy-eden"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="46"></a>
+  <a href="https://github.com/GingaShift/star-d-electronics"><img src="assets/btn-star-d.svg" alt="STAR-D" height="46"></a>
+  <a href="https://github.com/GingaShift?tab=repositories"><img src="assets/btn-repos.svg" alt="All repositories" height="46"></a>
+  <!-- <a href="mailto:PUT-YOUR-ADDRESS-HERE"><img src="assets/btn-email.svg" alt="Email" height="46"></a> -->
+</p>
+
+<!-- ============================== NOW STRIP ==============================
+     assets/now-strip.svg · 1012×166 — the three things happening right now.
+-->
+<img src="assets/now-strip.svg" alt="Current work: STAR-D flight electronics, SpaceCHI 2026, mechatronics research" width="100%">
+
+<!-- ============================== INTRODUCTION ============================
+     assets/orb.svg · 420×420 holds the right column.
+-->
+<table>
+<tr>
+<td width="62%" valign="top">
+
+### Hey -> I'm Eden
+
+I build the electronics, embedded systems and scientific software that let experiments survive the environments we send them into, and the interfaces that let people read what comes back.
+
+Right now that means four flight boards for **STAR-D**, an experiment flying on a sounding rocket in 2027, a poster paper at **SpaceCHI 2026**, and research on how decentralised robot swarms behave when nobody is in charge.
+
+Between the soldering iron and the telescope, the thread is the same: instruments that go somewhere hard, and a way to read what they bring back.
+
+</td>
+<td width="38%" align="center" valign="middle"><img src="assets/orb.svg" alt="" width="100%"></td>
+</tr>
+</table>
 
 <!-- ============================== SELECTED RECORD =========================
      The highest-value block on the page: what has actually happened, dated.
