@@ -68,7 +68,7 @@ Right now that means four flight boards for **STAR-D**, an experiment flying on 
 Between the soldering iron and the telescope, the thread is the same: instruments that go somewhere hard, and a way to read what they bring back.
 
 </td>
-<td width="38%" align="center" valign="middle"><img src="assets/orb.svg" alt="" width="100%"></td>
+<td width="38%" align="center" valign="middle"><img src="assets/orb1.svg" alt="" width="100%"></td>
 </tr>
 </table>
 
