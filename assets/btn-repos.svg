@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="58" viewBox="0 0 320 58" role="img" aria-label="ALL REPOS">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffd166" stop-opacity=".9"></stop><stop offset="100%" stop-color="#ff7a4d" stop-opacity=".9"></stop></linearGradient>
+<linearGradient id="f" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffd166" stop-opacity=".16"></stop><stop offset="100%" stop-color="#ff7a4d" stop-opacity=".06"></stop></linearGradient></defs>
+<rect x="1" y="1" width="318" height="56" rx="10" fill="#0D0F18"></rect>
+<rect x="1" y="1" width="318" height="56" rx="10" fill="url(#f)"></rect>
+<rect x="1.5" y="1.5" width="317" height="55" rx="9.5" fill="none" stroke="url(#g)" stroke-width="1.4"></rect>
+<g transform="translate(26 29)"><circle cx="0" cy="0" r="11" fill="none" stroke="#ffd166" stroke-width="1.6"></circle><path d="M-11 0 h22 M0 -11 a 14 14 0 0 0 0 22 a 14 14 0 0 0 0 -22" fill="none" stroke="#ffd166" stroke-width="1.2"></path></g>
+<text x="70" y="34" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="13" letter-spacing="2.6" fill="#eae7f7">ALL REPOS</text>
+<path d="M282 29 h14 M290 23 l6 6 -6 6" stroke="#8d88ad" stroke-width="1.4" fill="none"></path>
+</svg>

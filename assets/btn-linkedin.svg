@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="58" viewBox="0 0 320 58" role="img" aria-label="LINKEDIN">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#5f7bff" stop-opacity=".9"></stop><stop offset="100%" stop-color="#7b3fd4" stop-opacity=".9"></stop></linearGradient>
+<linearGradient id="f" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#5f7bff" stop-opacity=".16"></stop><stop offset="100%" stop-color="#7b3fd4" stop-opacity=".06"></stop></linearGradient></defs>
+<rect x="1" y="1" width="318" height="56" rx="10" fill="#0D0F18"></rect>
+<rect x="1" y="1" width="318" height="56" rx="10" fill="url(#f)"></rect>
+<rect x="1.5" y="1.5" width="317" height="55" rx="9.5" fill="none" stroke="url(#g)" stroke-width="1.4"></rect>
+<g transform="translate(26 29)"><rect x="-11" y="-11" width="22" height="22" rx="4" fill="none" stroke="#5f7bff" stroke-width="1.6"></rect><path d="M-6 -3 V6 M-6 -7.5 V-7.4" stroke="#5f7bff" stroke-width="2.2" stroke-linecap="round"></path><path d="M0 6 V-3 M0 -1 c 0 -3 6 -3 6 1 V6" stroke="#5f7bff" stroke-width="1.8" fill="none" stroke-linecap="round"></path></g>
+<text x="70" y="34" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="13" letter-spacing="2.6" fill="#eae7f7">LINKEDIN</text>
+<path d="M282 29 h14 M290 23 l6 6 -6 6" stroke="#8d88ad" stroke-width="1.4" fill="none"></path>
+</svg>

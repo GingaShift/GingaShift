@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Eden Elfassy monogram">
+<defs><linearGradient id="sp" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7b3fd4"></stop><stop offset="20%" stop-color="#5f7bff"></stop><stop offset="40%" stop-color="#3fd8e8"></stop><stop offset="58%" stop-color="#ffffff"></stop><stop offset="74%" stop-color="#ffd166"></stop><stop offset="88%" stop-color="#ff7a4d"></stop><stop offset="100%" stop-color="#d13fa0"></stop></linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#9184d9" stop-opacity=".5"></stop><stop offset="100%" stop-color="#9184d9" stop-opacity="0"></stop></radialGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="6"></feGaussianBlur></filter></defs>
+<rect width="240" height="240" rx="18" fill="#0A0B12"></rect>
+<circle cx="120" cy="120" r="86" fill="url(#glow)"></circle>
+<circle cx="120" cy="120" r="62" fill="none" stroke="url(#sp)" stroke-width="2.4"></circle>
+<ellipse cx="120" cy="120" rx="98" ry="34" fill="none" stroke="url(#sp)" stroke-width="1.6" opacity=".85" transform="rotate(-22 120 120)"></ellipse>
+<ellipse cx="120" cy="120" rx="86" ry="24" fill="none" stroke="#3fd8e8" stroke-width="1" opacity=".5" transform="rotate(28 120 120)"></ellipse>
+<circle cx="204" cy="88" r="4" fill="#ffd166"></circle>
+<circle cx="44" cy="158" r="3" fill="#3fd8e8"></circle>
+<text x="120" y="136" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="44" font-weight="300" letter-spacing="2" fill="#fbfaff">EE</text>
+</svg>

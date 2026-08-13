@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="166" viewBox="0 0 1012 166" role="img" aria-label="Current work: STAR-D, SpaceCHI 2026, mechatronics research">
+<defs><linearGradient id="tint0" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffe066" stop-opacity=".13"></stop><stop offset="100%" stop-color="#ffe066" stop-opacity=".02"></stop></linearGradient><linearGradient id="tint1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3fd8e8" stop-opacity=".13"></stop><stop offset="100%" stop-color="#3fd8e8" stop-opacity=".02"></stop></linearGradient><linearGradient id="tint2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8a3fe0" stop-opacity=".13"></stop><stop offset="100%" stop-color="#8a3fe0" stop-opacity=".02"></stop></linearGradient></defs>
+<rect width="1012" height="166" fill="#0B0C14"></rect><g transform="translate(0 0)">
+<rect x="0" y="0" width="329.3333333333333" height="166" rx="10" fill="#0D0F18"></rect>
+<rect x="0" y="0" width="329.3333333333333" height="166" rx="10" fill="url(#tint0)"></rect>
+<rect x=".5" y=".5" width="328.3333333333333" height="165" rx="9.5" fill="none" stroke="#ffe066" stroke-opacity=".38" stroke-width="1"></rect>
+<rect x="14" y="0" width="301.3333333333333" height="2" fill="#ffe066"></rect>
+<text x="22" y="42" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="2.2" fill="#ffe066">MAR 2027</text>
+<text x="22" y="78" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#f4f2fb">STAR-D</text>
+<text x="22" y="102" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="300" fill="#9a9ab8">Flight electronics · REXUS 38</text>
+<text x="22" y="132" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9.5" letter-spacing="1.8" fill="#6a6a88">DLR-MORABA CDR PASSED</text>
+
+<circle cx="303.3333333333333" cy="36" r="4" fill="#ffe066"></circle>
+<circle cx="303.3333333333333" cy="36" r="10" fill="none" stroke="#ffe066" stroke-opacity=".35" stroke-width="1"></circle>
+</g><g transform="translate(341.3333333333333 0)">
+<rect x="0" y="0" width="329.3333333333333" height="166" rx="10" fill="#0D0F18"></rect>
+<rect x="0" y="0" width="329.3333333333333" height="166" rx="10" fill="url(#tint1)"></rect>
+<rect x=".5" y=".5" width="328.3333333333333" height="165" rx="9.5" fill="none" stroke="#3fd8e8" stroke-opacity=".38" stroke-width="1"></rect>
+<rect x="14" y="0" width="301.3333333333333" height="2" fill="#3fd8e8"></rect>
+<text x="22" y="42" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="2.2" fill="#3fd8e8">24–25 SEP 2026</text>
+<text x="22" y="78" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="400" fill="#f4f2fb">SPACECHI 2026</text>
+<text x="22" y="102" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="300" fill="#9a9ab8">First-author poster paper</text>
+<text x="22" y="132" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9.5" letter-spacing="1.8" fill="#6a6a88">NASA AMES CONF. CENTER</text>
+
+<circle cx="303.3333333333333" cy="36" r="4" fill="#3fd8e8"></circle>
+<circle cx="303.3333333333333" cy="36" r="10" fill="none" stroke="#3fd8e8" stroke-opacity=".35" stroke-width="1"></circle>
+</g><g transform="translate(682.6666666666666 0)">
+<rect x="0" y="0" width="329.3333333333333" height="166" rx="10" fill="#0D0F18"></rect>
+<rect x="0" y="0" width="329.3333333333333" height="166" rx="10" fill="url(#tint2)"></rect>
+<rect x=".5" y=".5" width="328.3333333333333" height="165" rx="9.5" fill="none" stroke="#8a3fe0" stroke-opacity=".38" stroke-width="1"></rect>
+<rect x="14" y="0" width="301.3333333333333" height="2" fill="#8a3fe0"></rect>
+<text x="22" y="42" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="10" letter-spacing="2.2" fill="#8a3fe0">MAY–AUG 2026</text>
+<text x="22" y="78" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#f4f2fb">MECHATRONICS RESEARCH</text>
+<text x="22" y="102" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="300" fill="#9a9ab8">Embedded systems, sensing and control</text>
+<text x="22" y="132" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9.5" letter-spacing="1.8" fill="#6a6a88">INST. FOR FUTURE TECHNOLOGIES</text>
+<text x="22" y="150" font-family="SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" font-size="9.5" letter-spacing="1.8" fill="#5b5b78">APPLIED TO SWARM ROBOTICS</text>
+<circle cx="303.3333333333333" cy="36" r="4" fill="#8a3fe0"></circle>
+<circle cx="303.3333333333333" cy="36" r="10" fill="none" stroke="#8a3fe0" stroke-opacity=".35" stroke-width="1"></circle>
+</g></svg>
