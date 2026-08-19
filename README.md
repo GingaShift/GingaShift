@@ -182,6 +182,12 @@ First author of “Design Considerations for Tangible Human–Swarm Interaction 
 
 `HELD AT NASA AMES CONFERENCE CENTER`
 
+<p align="center">
+  <img src="assets/NASA_logo.svg" alt="NASA Ames Research Center" height="86">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/mit-media-lab.png" alt="MIT Media Lab" height="86">
+</p>
+
 </td>
 <td width="50%" valign="top">
 
