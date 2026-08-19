@@ -224,6 +224,10 @@ Systems member of the team competing in the Revolutionary Aerospace Systems Conc
 </tr>
 </table>
 
+<a href="assets/rascal-poster.pdf"><img src="assets/rascal-poster.png" alt="MATRIX — 2026 NASA RASC-AL competition poster, University of Illinois Urbana-Champaign" width="100%"></a>
+
+`FIG. 04 · MATRIX · 2026 RASC-AL COMPETITION POSTER · UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN`
+
 <img src="assets/divider-02.svg" alt="" width="100%">
 
 <!-- ============================== FEATURED SYSTEMS ========================
